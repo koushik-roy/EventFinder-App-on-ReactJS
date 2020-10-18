@@ -16,7 +16,7 @@ const AppNavbar = () => {
               <NavDropdown.Item href="/manage/create">Create Event</NavDropdown.Item>
               <NavDropdown.Item href="/manage/delete">Delete Event</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/api">API</Nav.Link>
+            <Nav.Link href={`${process.env.SERVER_URL}`}>API</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
