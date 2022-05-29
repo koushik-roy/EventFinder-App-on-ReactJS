@@ -21,9 +21,9 @@ function allEvent() {
       console.log(err);
     });
 }
-
+//
 function createEvent(event) {
-  const {id, title, description, capacity, region, imgUrl} = event;
+  const { id, title, description, capacity, region, imgUrl } = event;
   const url = `${apiUrl}/events`;
   const options = {
     method: "POST",
@@ -56,7 +56,7 @@ function deleteEvent(eventId) {
     method: "DELETE",
     headers: {
       "Content-Type": "application/json",
-    }
+    },
   };
   return fetch(url, options)
     .then((resp) => resp.json())

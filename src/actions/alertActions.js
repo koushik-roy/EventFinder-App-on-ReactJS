@@ -1,3 +1,4 @@
+// alert actions
 import { toastr } from "react-redux-toastr";
 
 export const alertActions = {

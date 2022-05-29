@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-
+//
 const Event = (props) => {
   const handleDelete = (e) => {
     props.deleteEvent(props.id);

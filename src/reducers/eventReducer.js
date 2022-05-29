@@ -1,4 +1,4 @@
-import {eventConstants} from "../constants";
+import { eventConstants } from "../constants";
 
 const initialState = {};
 
@@ -29,3 +29,4 @@ export function eventReducer(state = initialState, action) {
       return state;
   }
 }
+//

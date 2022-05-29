@@ -1,10 +1,10 @@
+//searchActions
 export const searchActions = {
-  changeSearchKeyword
-}
+  changeSearchKeyword,
+};
 
 function changeSearchKeyword(value) {
   return (dispatch) => {
-    dispatch({type: "CHANGE_SEARCH_KEYWORD", searchKeyword:value});
-  }
+    dispatch({ type: "CHANGE_SEARCH_KEYWORD", searchKeyword: value });
+  };
 }
-

@@ -4,7 +4,7 @@ import Form from "react-bootstrap/Form";
 import FormControl from "react-bootstrap/FormControl";
 import { searchActions } from "../actions/searchActions";
 import Container from "react-bootstrap/Container";
-
+//
 const SearchBar = (props) => {
   const handleChange = (e) => {
     props.changeSearchKeyword(e.target.value);

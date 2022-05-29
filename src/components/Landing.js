@@ -11,6 +11,7 @@ const Landing = () => {
       <EventCatalog />
     </>
   );
-}
+};
 
 export default Landing;
+//
