@@ -13,10 +13,13 @@ const AppNavbar = () => {
           <Nav className="mr-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <NavDropdown title="Manage Events" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/manage/create">Create Event</NavDropdown.Item>
-              <NavDropdown.Item href="/manage/delete">Delete Event</NavDropdown.Item>
+              <NavDropdown.Item href="/manage/create">
+                Create Event
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/manage/delete">
+                Delete Event
+              </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href={`${process.env.SERVER_URL}`}>API</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

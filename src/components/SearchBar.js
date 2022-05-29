@@ -1,8 +1,8 @@
 import React from "react";
-import {connect} from "react-redux";
+import { connect } from "react-redux";
 import Form from "react-bootstrap/Form";
 import FormControl from "react-bootstrap/FormControl";
-import {searchActions} from "../actions/searchActions";
+import { searchActions } from "../actions/searchActions";
 import Container from "react-bootstrap/Container";
 
 const SearchBar = (props) => {
@@ -19,8 +19,9 @@ const SearchBar = (props) => {
           <FormControl
             type="text"
             value={props.searchKeyword}
-            placeholder="Search by Region eg: delhi"
-            onChange={handleChange}></FormControl>
+            placeholder="Search by Region eg: Kolkata"
+            onChange={handleChange}
+          ></FormControl>
         </Form>
       </Container>
     </>
